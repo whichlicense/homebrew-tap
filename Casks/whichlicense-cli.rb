@@ -1,10 +1,10 @@
 cask "whichlicense-cli" do
     arch arm: "aarch64", intel: "amd64"
 
-    version "0.1.6"
+    version "0.2.0"
 
-    sha256 arm:   "2eda3bd0996f8d1c0e48b47cc20856132f4e810e33927e25cc5337c182204731",
-           intel: "0d132d4639a645d807f607e1ecc90568a16780daa9d70d78030109e315443206"
+    sha256 arm:   "805b6fb3ff185c8142437c38af932dd81c38c06edfc2be5eb9437af9e2436967",
+           intel: "22336cf01cabbc77c2e119763d1a078b102d5d160bbf39548ae27cf0b8ec72b4"
     
     url "https://github.com/whichlicense/cli/releases/download/v#{version}/whichlicense-darwin-#{arch}"
     name "WhichLicense CLI #{version}"
