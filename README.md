@@ -25,4 +25,4 @@ the installation command with the following flag:
 brew install --no-quarantine --cask whichlicense/tap/whichlicense-cli
 ```
 
-[Homebrew]: https://brew.sh/
+[Homebrew]: https://brew.sh
